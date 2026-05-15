@@ -7,26 +7,26 @@ const Work = () => {
     {
       heading: "Pixelflake",
       para: "Architectural Marketing Agency",
-      image: "/src/images/img1.webp",
-      video: "/src/videos/vid1.mp4",
+      image: "../public/src/images/img1.webp",
+      video: "../public/src/videos/vid1.mp4",
     },
     {
       heading: "Pixelflake",
       para: "Architectural Marketing Agency",
-      image: "/src/images/img2.webp",
-      video: "/src/videos/vid2.mp4",
+      image: "../public/src/images/img2.webp",
+      video: "../public/src/videos/vid2.mp4",
     },
     {
       heading: "Pixelflake",
       para: "Architectural Marketing Agency",
-      image: "/src/images/img3.webp",
-      video: "/src/videos/vid3.mp4",
+      image: "../public/src/images/img3.webp",
+      video: "../public/src/videos/vid3.mp4",
     },
     {
       heading: "Pixelflake",
       para: "Architectural Marketing Agency",
-      image: "/src/images/img4.webp",
-      video: "/src/videos/vid4.mp4",
+      image: "../public/src/images/img4.webp",
+      video: "../public/src/videos/vid4.mp4",
     },
   ]);
   return (
