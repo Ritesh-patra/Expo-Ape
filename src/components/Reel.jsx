@@ -38,7 +38,7 @@ const Reel = () => {
   return (
     <div ref={pin} className=' w-full h-screen bg-black relative'>
         <div ref={vid} className=' w-40 sm:w-80  overflow-hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
-        <video className=' w-full h-full object-cover' autoPlay muted loop src="/src/videos/vid5.mp4"></video>
+        <video className=' w-full h-full object-cover' autoPlay muted loop src="/videos/vid5.mp4"></video>
         </div>
         <div className=' relative w-full h-screen text-white flex flex-col items-center justify-between py-24 sm:py-10'>
         <div className="flex gap-3  items-center">

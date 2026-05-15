@@ -56,7 +56,7 @@ const Footer = () => {
             autoPlay
             muted
             loop
-            src="/src/videos/vid8.mp4"
+            src="/videos/vid8.mp4"
           ></video>
         </div>
         <p className="text-white px-24 w-[45vw] text-2xl">

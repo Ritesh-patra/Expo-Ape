@@ -1,6 +1,6 @@
 import gsap, { ScrollTrigger } from "gsap/all";
 // import { Timeline } from "gsap/gsap-core";
-import React, { useEffect, useRef } from "react";
+import  { useEffect, useRef } from "react";
 
 const News = () => {
   const img1 = useRef(null);
@@ -41,7 +41,7 @@ const News = () => {
       <div className="w-32 sm:w-80 h-[50%] sm:h-[85%]  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 relative">
         <img
           className="w-full h-full object-cover"
-          src="/src/images/img5.webp"
+          src="/images/img5.webp"
           alt=""
         />
       </div>
@@ -54,7 +54,7 @@ const News = () => {
           loop
           muted
           className="w-full h-full object-cover"
-          src="/src/videos/vid7.mp4"
+          src="/videos/vid7.mp4"
         ></video>
       </div>
       <div
@@ -63,7 +63,7 @@ const News = () => {
       >
         <img
           className="w-full h-full object-cover"
-          src="/src/images/img7.webp"
+          src="/images/img7.webp"
           alt=""
         />
       </div>
@@ -76,13 +76,13 @@ const News = () => {
           loop
           muted
           className="w-full h-full object-cover"
-          src="/src/videos/vid6.mp4"
+          src="/videos/vid6.mp4"
         ></video>
       </div>
       <div ref={img4} className="w-16 hidden sm:block sm:h-[40%] sm:w-[13%] h-24 absolute sm:top-[18%] sm:right-[0] top-1/3 right-[15%] -translate-x-1/4">
         <img
           className="w-full h-full object-cover"
-          src="/src/images/img6.webp"
+          src="/images/img6.webp"
           alt=""
         />
       </div>
