@@ -3,32 +3,32 @@ import React, { useState } from "react";
 import { Power4 } from "gsap/all";
 
 const Work = () => {
-  const [elems, setElem] = useState([
-    {
-      heading: "Pixelflake",
-      para: "Architectural Marketing Agency",
-      image: "../public/src/images/img1.webp",
-      video: "../public/src/videos/vid1.mp4",
-    },
-    {
-      heading: "Pixelflake",
-      para: "Architectural Marketing Agency",
-      image: "../public/src/images/img2.webp",
-      video: "../public/src/videos/vid2.mp4",
-    },
-    {
-      heading: "Pixelflake",
-      para: "Architectural Marketing Agency",
-      image: "../public/src/images/img3.webp",
-      video: "../public/src/videos/vid3.mp4",
-    },
-    {
-      heading: "Pixelflake",
-      para: "Architectural Marketing Agency",
-      image: "../public/src/images/img4.webp",
-      video: "../public/src/videos/vid4.mp4",
-    },
-  ]);
+ const [elems, setElem] = useState([
+  {
+    heading: "Pixelflake",
+    para: "Architectural Marketing Agency",
+    image: "/images/img1.webp",
+    video: "/videos/vid1.mp4",
+  },
+  {
+    heading: "Pixelflake",
+    para: "Architectural Marketing Agency",
+    image: "/images/img2.webp",
+    video: "/videos/vid2.mp4",
+  },
+  {
+    heading: "Pixelflake",
+    para: "Architectural Marketing Agency",
+    image: "/images/img3.webp",
+    video: "/videos/vid3.mp4",
+  },
+  {
+    heading: "Pixelflake",
+    para: "Architectural Marketing Agency",
+    image: "/images/img4.webp",
+    video: "/videos/vid4.mp4",
+  },
+]);
   return (
     <div className="w-full relative bg-zinc-100">
       <div className="max-w-screen-2xl mx-auto px-5  py-10 ">
